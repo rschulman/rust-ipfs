@@ -1,0 +1,11 @@
+[package]
+name = "rust-ipfs"
+version = "0.1.0"
+authors = ["Ross Schulman"]
+
+[dependencies]
+openssl = "0.6.0"
+rust-base58 = "*"
+
+[dependencies.protobuf]
+git = "https://github.com/stepancheg/rust-protobuf.git"
